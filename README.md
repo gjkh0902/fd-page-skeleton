@@ -1,3 +1,6 @@
+### 版本修复
+修复了启动项目端口报错的问题！
+
 ### Features
 
 Page Skeleton 是一款 webpack 插件，该插件的目的是根据你项目中不同的路由页面生成相应的骨架屏页面，并将骨架屏页面通过 webpack 打包到对应的静态路由页面中。
@@ -86,11 +89,11 @@ const webpackConfig = {
 
 1. 在开发页面中通过 Ctrl|Cmd + enter 呼出插件交互界面，或者在在浏览器的 JavaScript 控制台内输入`toggleBar` 呼出交互界面。
 
-![](./step1.jpg)
+![](./docs/step1.jpg)
 
 1. 点击交互界面中的按钮，进行骨架页面的预览，这一过程可能会花费 20s 左右时间，当插件准备好骨架页面后，会自动通过浏览器打开预览页面，如下图。
 
-![](./step2.jpg)
+![](./docs/step2.jpg)
 
 1. 扫描预览页面中的二维码，可在手机端预览骨架页面，可以在预览页面直接编辑源码，通过点击右上角写入按钮，将骨架页面写入到 shell.html 文件中。
 
@@ -195,6 +198,3 @@ const pluginDefaultConfig = {
 ### Contribution
 
 运行 npm run dev:sale 启动 sample 文件夹的 sale 项目，可以进行项目的开发，client 端和 preview 页面的开发请参见 package 中的 script 命令，如果你对该项目感兴趣，欢迎大家贡献代码。
-
-### 版本修复
-修复了启动项目端口报错的问题！
